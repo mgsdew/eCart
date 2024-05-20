@@ -1,0 +1,8 @@
+<div class="eCart--search--product">
+    <!--    <input class="eCart-search-product-input" [value]="searchText" (input)="updateSearchText($event)">  -->
+    <input class="eCart-search-product-input" [(ngModel)]="searchText">
+    <button class="btn btn-search">Search</button>
+</div>
+<div class="eCart-search-result-for">
+    <p><strong>Search result for:</strong> {{ searchText }}</p>
+</div>
